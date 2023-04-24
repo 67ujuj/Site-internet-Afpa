@@ -1,0 +1,20 @@
+*{
+    font-family: Avenir Next LT Pro;
+}
+#logo{
+    height: 10rem;
+    width: auto;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+}
+.navbar-nav{
+    justify-content: space-evenly;
+    font-size: 22px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
