@@ -13,10 +13,10 @@
     justify-content: space-evenly;
     font-size: 22px;
 }
-li{
+/* li{
     display: flex;
     justify-content: space-between;
-}
+} */
 .burger{
     margin: auto 0;
 }
@@ -30,7 +30,4 @@ li{
 }
 #fondafpa{
     background-color: #44A33D;
-}
-#navbarNav{
-    background-color: red;
 }
