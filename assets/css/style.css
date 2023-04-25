@@ -48,11 +48,15 @@ pre p{
 }
 /*CAROUSEL*/
 .carousel-caption h5{
-    color: black;
+    color: #DEDEDE;
+    background-color: green;
+    border-radius: 50px;
     font-size: 30px;
 }
 .carousel-caption p{
-    color: black;
+    color:#DEDEDE;
+    background-color: green;
+    border-radius: 50px;
     font-size: 16px;
 }
 .button{
