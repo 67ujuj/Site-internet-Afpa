@@ -46,3 +46,20 @@ pre p{
     margin: 20px;
     margin-top: 50px;
 }
+/*CAROUSEL*/
+.carousel-caption h5{
+    color: black;
+    font-size: 30px;
+}
+.carousel-caption p{
+    color: black;
+    font-size: 16px;
+}
+.button{
+    color: blue;
+}
+#carouselExampleCaptions{
+    margin: 50px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
