@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 .nav-link{
-    color: white;
+    color: black !important;
 }
 .navbar-nav{
     justify-content: space-evenly;
@@ -76,4 +76,14 @@ pre p{
 }
 .fn{
     margin-left: 25px;
+}
+#adressemail{
+    margin-top: 25px;
+}
+iframe{
+    margin-bottom: 40px;
+}
+.container-lg{
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
