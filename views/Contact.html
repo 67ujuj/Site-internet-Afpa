@@ -85,10 +85,15 @@
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- END OF HEADER -->
-    <div class="container-lg">
-      <form>
+    </div>
+  </nav>
+  <!-- END OF HEADER -->
+  <div class="container-lg">
+    <h1 class="display-3 my-4">Nous contacter</h1>
+
+    <form>
+      <fieldset>
+        <legend>Formulaire de rétroaction :</legend>
         <div class="mb-3">
           <label id="adressemail" for="exampleInputEmail1" class="form-label"
             >Adresse e-mail</label
@@ -111,28 +116,49 @@
         </select>
         <div class="mb-3">
           <p></p>
-          <label for="exampleFormControlTextarea1" class="form-label"
-            >Message</label
-          >
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Envoyer</button>
-      </form>
-      <br />
-      <!-- Google Maps -->
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.453926629674!2d0.1668869768548194!3d49.51370545436686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02fe40985f1ff%3A0x89e1a03a20457b7b!2sA.F.P.A%20Vocational%20Training%20Center%20for%20Adults!5e0!3m2!1sru!2sfr!4v1682346623950!5m2!1sru!2sfr"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      </fieldset>
+    </form>
+    <br>
+    <h2 class="my-3">Coordonnées</h2>
+    <!-- Google Maps -->
+    <div class="row">
+      <div class="col"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.453926629674!2d0.1668869768548194!3d49.51370545436686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02fe40985f1ff%3A0x89e1a03a20457b7b!2sA.F.P.A%20Vocational%20Training%20Center%20for%20Adults!5e0!3m2!1sru!2sfr!4v1682346623950!5m2!1sru!2sfr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div class="col">
+        <div class="adress p-2">
+          <h3 class="mb-2">L'adresse :</h3>
+          <address>3 rue Maximilien de Robespierre, 76610, LE HAVRE</address>
+          <h3 class="my-4">Appelez-nous au :</h3>
+          <img src="../assets/img/tel-3639.png" class="img-fluid tel3936" alt="Tèlephone">
+          <h3 class="my-4">Les horaires :</h3>
+          <div class="row">
+            <div class="col-2">lundi :</div>
+            <div class="col">08h00 - 12h00 /13h00 - 17h00</div>
+          </div>
+          <div class="row">
+            <div class="col-2">mardi :</div>
+            <div class="col">08h00 - 12h00 /13h00 - 17h00</div>
+          </div>
+          <div class="row">
+            <div class="col-2">mercredi :</div>
+            <div class="col">08h00 - 12h00 /13h00 - 17h00</div>
+          </div>
+          <div class="row">
+            <div class="col-2">jeudi :</div>
+            <div class="col">08h00 - 12h00 /13h00 - 17h00</div>
+          </div>
+          <div class="row">
+            <div class="col-2">vendredi :</div>
+            <div class="col">08h00 - 12h00</div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="mt-auto">
       <nav class="navbar navbar-expand-lg">
