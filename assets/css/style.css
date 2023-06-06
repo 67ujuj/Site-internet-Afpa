@@ -1,5 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
 *{
-    font-family: Avenir Next LT Pro, Arial, sans-serif;
+    font-family: Avenir;
+    font-weight: 600;
 }
 #logo{
     height: 10rem;
@@ -59,8 +61,10 @@ pre p{
     border-radius: 50px;
     font-size: 16px;
 }
-.button{
-    color: blue;
+#lesboutons{
+    background-color: green;
+    border-radius: 13px;
+    width: 115px;
 }
 #carouselExampleCaptions{
     margin: 50px;
